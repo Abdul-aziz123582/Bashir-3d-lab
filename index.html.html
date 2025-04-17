@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BASHIR 3D Digital Dental LAB</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5bc03;
+      color: #020202;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(to right, #1c5a7c, #00b4d8);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    nav a:hover {
+      color: #ffe66d;
+    }
+    section.hero {
+      background-image: url('https://images.unsplash.com/photo-1615455164026-f2f649cd6dd7');
+      background-size: cover;
+      background-position: center;
+      color: rgb(255, 255, 255);
+      padding: 120px 20px;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    section.hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+    }
+    .container {
+      padding: 50px 20px;
+      max-width: 1300px;
+      margin: auto;
+    }
+    .card {
+      background-color: rgb(177, 206, 14);
+      padding: 10px;
+      border-radius: 20px;
+      box-shadow: 7 6px 16px rgba(255, 4, 4, 0.1);
+      flex: 1 1 280px;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    footer {
+      background-color: #002ab6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 24px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+    .whatsapp:hover {
+      background-color: #20b954;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #0986c9;
+      font-size: 2rem;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.jpg" alt="Bashir Dental Logo">
+    <nav>
+      <a href="#team">Team</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>BASHIR 3D Digital Dental LAB</h1>
+    <p>Precision Dental Work | Modern Equipment | Expert Team</p>
+  </section>
+
+  <div class="container">
+    <section id="team" class="team">
+      <h2>Meet Our Experts</h2>
+      <div class="flex">
+        <div class="card">
+          <img src="me.jpg.jpg" alt="Dr Abdul Aziz" style="width: 400px; height: 400px;"
+          <h3>Dr. Abdul Aziz</h3>
+          <p>Lead Dental Surgeon & Specialist</p>
+        </div>
+        <div class="card">
+          <img src="" alt="Mr Bashir Ahmed">
+          <h3>Mr.Bashir Ahmed</h3>
+          <p>CEO</p>
+        </div>
+        <div class="card">
+          <img src="Lady.jpg" alt="Dr Alisha">
+          <h3>Dr. Meno Khan</h3>
+          <p>Lady Dental Surgeon</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <h2>Our Dental Products & Categories</h2>
+      <div class="flex">
+        <div class="card">
+          <img src="Zircon.jpg" alt="Zirconium Teeth">
+          <h3>Zirconium Crowns</h3>
+          <p>PKR 12,000 per tooth</p>
+        </div>
+        <div class="card">
+          <img src="Implant.jpg" alt="Implants">
+          <h3>Dental Implants</h3>
+          <p>PKR 25,000 per unit</p>
+        </div>
+        <div class="card">
+          <img src="Braces.jpg" alt="Braces">
+          <h3>Braces</h3>
+          <p>PKR 30,000 - 45,000</p>
+        </div>
+        <div class="card">
+          <img src="Kit.jpg" alt="Whitening Kit">
+          <h3>Whitening Kits</h3>
+          <p>PKR 4,000</p>
+        </div>
+        <div class="card">
+          <img src="Dentures.jpg" alt="Dentures">
+          <h3>Dentures (Full & Partial)</h3>
+          <p>PKR 8,000 - 20,000</p>
+        </div>
+        <div class="card">
+          <img src="Mouthguards.jpg" alt="Mouthguards">
+          <h3>Mouthguards</h3>
+          <p>PKR 3,500</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <h2>Gallery - Clinic, Lab & Peshawar City</h2>
+      <div class="flex">
+        <div class="card"><img src="Clinic.jpg" alt="Clinic"></div>
+        <div class="card"><img src="Lab.jpg" alt="Lab"></div>
+        <div class="card"><img src="Peshawar.jpg" alt="Peshawar"></div>
+        <div class="card"><img src="work.jpg" alt="Dental Work" style="width: auto; height: auto"
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact & Timings</h2>
+      <p><strong>Doctor Name:</strong> Dr. Abdul Aziz</p>
+      <p><strong>Lab Manager:</strong> Mr. Bashir Ahmed</p>
+      <p><strong>Lab Location:</strong> Tehkal Paya, Peshawar City</p>
+      <p><strong>Doctor Clinic Location:</strong> Hayatabad Phase 1, Peshawar</p>
+      <p><strong>Lab Timing:</strong> 11:30 AM - 8:00 PM</p>
+      <p><strong>Clinic Timing:</strong> 2:00 PM - 9:00 PM</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/03101791668">Chat Now</a></p>
+      <p><strong>Contact:</strong> 0310-1791668</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 BASHIR 3D Digital Dental LAB. All Rights Reserved.</p>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/03101791668" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</body>
+</html>
